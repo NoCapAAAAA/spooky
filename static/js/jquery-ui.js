@@ -1,7 +1,3 @@
-/*! jQuery UI - v1.12.1 - 2018-01-21
-* http://jqueryui.com
-* Includes: widget.js, keycode.js, widgets/mouse.js, widgets/slider.js
-* Copyright jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -18,24 +14,6 @@
 $.ui = $.ui || {};
 
 var version = $.ui.version = "1.12.1";
-
-
-/*!
- * jQuery UI Widget 1.12.1
- * http://jqueryui.com
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- */
-
-//>>label: Widget
-//>>group: Core
-//>>description: Provides a factory for creating stateful widgets with a common API.
-//>>docs: http://api.jqueryui.com/jQuery.widget/
-//>>demos: http://jqueryui.com/widget/
-
-
 
 var widgetUuid = 0;
 var widgetSlice = Array.prototype.slice;
@@ -62,8 +40,6 @@ $.cleanData = ( function( orig ) {
 $.widget = function( name, base, prototype ) {
 	var existingConstructor, constructor, basePrototype;
 
-	// ProxiedPrototype allows the provided prototype to remain unmodified
-	// so that it can be used as a mixin for multiple widgets (#8876)
 	var proxiedPrototype = {};
 
 	var namespace = name.split( "." )[ 0 ];
@@ -100,16 +76,11 @@ $.widget = function( name, base, prototype ) {
 		}
 	};
 
-	// Extend with the existing constructor to carry over any static properties
 	$.extend( constructor, existingConstructor, {
 		version: prototype.version,
 
-		// Copy the object used to create the prototype in case we need to
-		// redefine the widget later
 		_proto: $.extend( {}, prototype ),
 
-		// Track widgets that inherit from this widget in case this widget is
-		// redefined after a widget inherits from it
 		_childConstructors: []
 	} );
 
