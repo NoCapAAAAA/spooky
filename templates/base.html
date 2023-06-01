@@ -2,18 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Долгосрочный паркинг авто от спуки</title>
+    <title>Долгосрочный паркинг авто</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="Free-Template.co" />
-
-    <link rel="shortcut icon" href="ftco-32x32.png">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link type="text/css" href="{{ url_for('static', filename='fonts/icomoon/style.css')}}" rel="stylesheet" />
 
     <link type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
     <link type="text/css" href="{{ url_for('static', filename='css/jquery-ui.css')}}" rel="stylesheet" />
@@ -82,7 +76,7 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 mt-lg-5 text-center">
               <h1 class="text-shadow">Долгосрочный паркинг вашего автомобиля</h1>
-              <p class="mb-5 text-shadow">Решили поехать на шашлыки, но боитесь остовлять авто на улице? Мы вам поможем</p>
+              <p class="mb-5 text-shadow">Оставьте свой автомобиль на долгосрочный паркинг и наслаждайтесь спокойствием и уверенностью!</p>
               <p><a href="#contact-section" target="_blank" class="btn btn-primary px-5 py-3">Оформить заявку</a></p>
 
             </div>
@@ -98,8 +92,8 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 mt-lg-5 text-center">
-              <h1 class="text-shadow">Мы гарантия качестваи беопасности!!!</h1>
-              <p class="mb-5 text-shadow">Дорогое авто, но нет гаража для безопасного храненения? Не беда, мы ваши друзья!!!</p>
+              <h1 class="text-shadow">Доверьте свой автомобиль профессионалам!</h1>
+              <p class="mb-5 text-shadow">Уверенность на долгие месяцы: выберите наш сервис долгосрочного паркинга для вашего авто!</p>
               <p><a href="#contact-section" target="_blank" class="btn btn-primary px-5 py-3">Перейти к оформлению</a></p>
 
             </div>
@@ -116,7 +110,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-7 text-left">
-            <h2 class="section-title mb-3">Кто мы вообще такеи?</h2>
+            <h2 class="section-title mb-3">Кто мы?</h2>
             <p class="lead">Мы команда проффесионалов на рынке долгосрочного паркинга.</p>
           </div>
         </div>
@@ -133,7 +127,7 @@
                 <img src="{{ url_for('static', filename='images/person_1.jpg') }}" alt="Free website template by Free-Template.co" class="img-fluid">
               </figure>
               <div class="p-3 bg-primary">
-                <h3 class="mb-2">Петров Иван Петрович</h3>
+                <h3 class="mb-2">Петров Пётр</h3>
                 <span class="position">Генеральный директор</span>
               </div>
             </div>
@@ -149,8 +143,8 @@
                 <img src="{{ url_for('static', filename='images/person_2.jpg') }}" alt="Free website template by Free-Template.co" class="img-fluid">
               </figure>
               <div class="p-3 bg-primary">
-                <h3 class="mb-2">Сидоров Никитосик Никитович</h3>
-                <span class="position">Популярный парень</span>
+                <h3 class="mb-2">Иванов Иван</h3>
+                <span class="position">Исполнительный директор</span>
               </div>
             </div>
           </div>
@@ -165,8 +159,8 @@
                 <img src="{{ url_for('static', filename='images/person_3.jpg') }}" alt="Free website template by Free-Template.co" class="img-fluid">
               </figure>
               <div class="p-3 bg-primary">
-                <h3 class="mb-2">Ноженка Никита Ноженкович</h3>
-                <span class="position">Просто добрая душа</span>
+                <h3 class="mb-2">Архипов Олег</h3>
+                <span class="position">Секритарь</span>
               </div>
             </div>
           </div>
@@ -180,7 +174,7 @@
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-3 text-black">Как это всё работает?</h2>
+            <h2 class="section-title mb-3 text-black">Как мы работаем?</h2>
           </div>
         </div>
         <div class="row">
@@ -234,9 +228,9 @@
                 <ul class="list-unstyled ul-check success">
                   <li>Мы работаем с 1999 года</li>
                   <li>99% довольных клиентов</li>
-                  <li>Нам доверяют более 25000 чекловек</li>
+                  <li>Нам доверяют более 25000 человек</li>
                   <li>Цены ниже чем у конкурентов</li>
-                  <li>Всегда поможем</li>
+                  <li>Индивидуальный подход к каждому.</li>
                 </ul>
 
           </div>
@@ -270,11 +264,11 @@
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Имя</label>
-                  <input type="text" name="first_name" id="fname" class="form-control">
+                  <input type="text" name="first_name" id="fname" class="form-control" minlength="2" onkeydown="return /[a-zA-Zа-яА-Я]/.test(event.key)" required>
                 </div>
                 <div class="col-md-6">
                   <label class="text-black" for="lname">Фамилия</label>
-                  <input type="text" name="last_name" id="lname" class="form-control">
+                  <input type="text" name="last_name" id="lname" class="form-control" minlength="2" onkeydown="return /[a-zA-Zа-яА-Я]/.test(event.key)" required>
                 </div>
               </div>
 
@@ -296,7 +290,7 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="message">Коментарий</label>
+                  <label class="text-black" for="message">Комментарий</label>
                   <textarea name="comment" id="message" cols="30" rows="7" class="form-control" placeholder="Пожелания"></textarea>
                 </div>
               </div>
@@ -309,6 +303,32 @@
 
 
             </form>
+            <script>
+            var currentDate = new Date().toISOString().split("T")[0];
+
+// Устанавливаем атрибут "min" в поле "Дата паркинга"
+document.getElementById('subject').setAttribute('min', currentDate);
+              var nameRegex = /^[a-zA-Zа-яА-Я]+$/;
+
+document.getElementById('fname').addEventListener('input', function () {
+  var value = this.value;
+  if (!nameRegex.test(value)) {
+    this.setCustomValidity('Пожалуйста, используйте только русские и английские буквы.');
+  } else {
+    this.setCustomValidity('');
+  }
+});
+
+document.getElementById('lname').addEventListener('input', function () {
+  var value = this.value;
+  if (!nameRegex.test(value)) {
+    this.setCustomValidity('Пожалуйста, используйте только русские и английские буквы.');
+  } else {
+    this.setCustomValidity('');
+  }
+});
+
+            </script>
           </div>
           <div class="col-md-5">
 
