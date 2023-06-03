@@ -16,7 +16,7 @@ def submit():
     first_name = data.get('first_name')
     last_name = data.get('last_name')
     parking_date = data.get('parking_date')
-    email = data.get('email')
+    phone_number = data.get('phone_number')
     comment = data.get('comment')
 
     # Создание подключения к базе данных
@@ -24,8 +24,8 @@ def submit():
         cursor = connection.cursor()
 
         # Выполнение SQL-запроса для записи данных в таблицу
-        query = "INSERT INTO ApplicationOfOrder (first_name, last_name, parking_date, email, comment) VALUES (?, ?, ?, ?, ?)"
-        cursor.execute(query, (first_name, last_name, parking_date, email, comment))
+        query = "INSERT INTO ApplicationOfOrder (first_name, last_name, parking_date, phone_number, comment) VALUES (?, ?, ?, ?, ?)"
+        cursor.execute(query, (first_name, last_name, parking_date, phone_number, comment))
         connection.commit()
 
     return redirect(url_for('index', modal=True))
