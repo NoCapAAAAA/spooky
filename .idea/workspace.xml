@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2949b7bc-3fd4-483d-92f1-fdc9be7c0d07" name="Changes" comment="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)">
+      <change beforePath="$PROJECT_DIR$/spooky_conc.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/spooky_conc.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spooky_conc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spooky_info.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/spooky_info.drawio" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q6PsdxoSSNMeTGRCm0wP4T1AXo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/spooky&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\spooky\templates" />
+      <recent name="C:\Users\user\Desktop\spooky\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="site" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spooky" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/site.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.site" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2949b7bc-3fd4-483d-92f1-fdc9be7c0d07" name="Changes" comment="" />
+      <created>1684671265346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684671265346</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1684671758760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684671758760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="two commit">
+      <created>1685442397814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685442397814</updated>
+    </task>
+    <task id="LOCAL-00003" summary="three commit">
+      <created>1685442705063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685442705063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="four commit">
+      <created>1685597997363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685597997363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)">
+      <created>1685779189891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685779189891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)">
+      <created>1685779250521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685779250521</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)">
+      <created>1685779570576</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685779570576</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="two commit" />
+    <MESSAGE value="three commit" />
+    <MESSAGE value="four commit" />
+    <MESSAGE value="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back it stu', I mean it, 808-ой толкает волну (У, я) Hello, мир, Манера крутит мир В дабл капе мои заны, а другой держу свой bean (У, я) Погоди, I’m swervin' shit один И мне так похуй, я застрял среди этих паутин (М-м)" />
+  </component>
+</project>
